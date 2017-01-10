@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'gothic';
+	src: url('./gothic.eot');
+	src: local('gothic'), url('./gothic.woff') format('woff'), url('./gothic.ttf') format('truetype');
+}
+
+body{
+	color: #000000;
+	}
+
+h1{
+	margin:16px;
+	}
+
+.menu{
+	background-color: #008080;
+	border: 4px solid #008080;
+	color: #ffffff;
+	text-align:center;
+	position:fixed;
+	width:100%;
+	z-index:100;
+	
+	}
+
+.intro{
+	text-align:center;
+}
+
+li{
+	display:inline;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 0px 30px 0px 10px;
+	
+	transition: 0.2s;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0 10px;
+	margin: 0 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+li:hover{
+	cursor: pointer;
+	background-color: #ffffff;
+	color: #008080;
+	padding: 23px 10px;
+	
+}
+
+#b{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#front{
+	border-radius: 99%;
+	width: 100px;
+	height: 100px;	
+}
+
+footer{
+	background-color: #008080;
+	padding: 20px 10px 20px 10px;
+	border-width: 2px;
+	text-align:center;
+	color: #ffffff;
+	background-attachment: pic1.jpg;
+}
+
+#one,#two,#three,#four{
+	width: 800px;
+	height: 480px;
+}
+
+.bgbg{
+	text-align:center;
+}
+
+.slides{
+	background-color: #008080;
+}
+
+me{
+	text-align:center;
+}
