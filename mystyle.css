@@ -98,14 +98,14 @@ me{
 .ani{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	display: block;
+	display: inline-block;
 }
 
 
 
 .skillspics{
-  max-width: 750px;
-  height: 550px;
+  max-width: 600px;
+  height: 400px;
   margin: 20px auto;
   position: relative;
 }
